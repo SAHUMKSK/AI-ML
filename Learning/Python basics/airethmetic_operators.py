@@ -1,3 +1,5 @@
+# It performs mathematic calculations on numeric values.
+
 a = 11
 b = 3
 
