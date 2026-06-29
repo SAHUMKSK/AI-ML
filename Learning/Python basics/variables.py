@@ -1,15 +1,18 @@
 name = "Mukesh Sahu"
 age = 30
-city = "Surat"
-role = "AI Engineer"
+salary = "100000.00"
+designation = "AI Engineer"
+skills = ["Python", "Numpy", "Pandas", "Seaborn", "Matplotlib", "MySQL", "Alogrithms", ]
+tools = ("Python", "Machine Learning", "Deep Learning", "Neural Networks", "Power BI", "SQL")
 
 print("My name is",name)
 print("I am", age, "years old")
-print("I live in", city)
-print("I am working as", role)
-
+print("My salary is", salary)
+print("I am having skiils", skills)
+print("Toold knowledge", tools)
 
 print(type(name))
 print(type(age))
-print(type(city))
-print(type(role))
+print(type(salary))
+print(type(skills))
+print(type(tools))
