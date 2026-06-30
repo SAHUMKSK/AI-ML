@@ -1,3 +1,6 @@
+# Variables is used to store the values.
+# Data type is the nature of the data.
+
 name = "Mukesh Sahu"
 age = 30
 salary = "100000.00"
