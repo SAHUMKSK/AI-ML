@@ -1,3 +1,5 @@
+# String is used to store the sequence of charatcers.
+
 string = "Python"
 
 print(string.upper())
@@ -16,3 +18,6 @@ role = "Artificial Intelligence/Machine Learning Engineer"
 age = 30
 
 print(f"Hi, I am {name}.\nI am an {role}.\nI am {age} years old.")
+
+for i in string:
+    print(i)
