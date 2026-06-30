@@ -29,3 +29,6 @@ fruits[2] = "Orange" # Replace the item by passing the index number
 print(fruits)
 
 print("Apple" in fruits) # It will check whether the given value is exist or not in that list.
+
+for i in fruits:
+    print(i)
