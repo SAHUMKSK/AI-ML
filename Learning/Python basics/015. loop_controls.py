@@ -1,9 +1,9 @@
 '''
 Loop controls: it is used to conntrol the loops.
 
-1. Break: It will terminates the loop entirely.
+1. Break: It will terminates the loop immediately when a specified condition is met.
 
-2. Continue: It skips the remaining current iteration.
+2. Continue: It stops executing any subsequent code within the current loop block.
 
 '''
 
@@ -24,7 +24,6 @@ for i in range(1, 11):
     
     print(i)
 
-    
 
 for i in range(1, 6):
     for j in range(1, 6):
