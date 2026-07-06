@@ -15,4 +15,3 @@ if is_negative == True:
     print("-", reversed_string, sep = "")
 else:
     print(reversed_string)
-

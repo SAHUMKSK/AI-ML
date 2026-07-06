@@ -1,6 +1,6 @@
 # 9. Check whether a number is a palindrome.
 
-number = int(input("Enter the number to check the palindrome or not: "))
+number = int(input("Enter the number to check if it is a palindrome: "))
 '''
 if number < 0:
     print("You entered negative number.")
