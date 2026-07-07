@@ -11,24 +11,41 @@ example 2:
 
 '''
 fruits = ["Apple", "Banana", "Cherry", "Date"]
+roles = list(["AI/ML Engineer", "ML Engineer", "AI ENgineer", "Data Analyst", "Data Engener"])
 
 print(fruits)
+print(roles)
+
+# Create empty list
+
+emptyList1 = []
+emptyList2 = list()
+
+# Access using index
 
 print(fruits[0]) # Access using index
+print(fruits[-1]) # Using negative indexing
 
-fruits.append("Elderberry") # Add items using append method
+# Length of the list
+print(len(fruits))
+print(len(roles))
 
+# Add values
+fruits.append("Grapes")
 print(fruits)
 
-fruits.remove("Cherry") # Remove items using remove method
-
+# Update the values using index
+fruits[3] = "Mango"
 print(fruits)
 
-fruits[2] = "Orange" # Replace the item by passing the index number
-
+# Delete the values using index
+print(fruits.pop(3))
 print(fruits)
 
-print("Apple" in fruits) # It will check whether the given value is exist or not in that list.
+# Delete using value
+fruits.remove("Cherry")
+print(fruits)
 
-for i in fruits:
-    print(i)
+# Concatenate two lists.
+new_list = fruits + roles
+print(new_list)
